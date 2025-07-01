@@ -1,0 +1,345 @@
+{
+  "name": "vulnerable-deps-project",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "vulnerable-deps-project",
+      "version": "1.0.0",
+      "license": "MIT",
+      "dependencies": {
+        "lodash": "^1.19.19",
+        "axios": "^2.1.14",
+        "express": "^2.5.23",
+        "minimist": "^4.6.10",
+        "xml2js": "^4.13.4",
+        "dep-5": "^1.18.13",
+        "dep-6": "^5.5.17",
+        "dep-7": "^3.18.4",
+        "dep-8": "^5.11.1",
+        "dep-9": "^3.2.9"
+      }
+    },
+    "node_modules/lodash": {
+      "version": "1.19.19",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-1.19.19.tgz",
+      "integrity": "sha512-...",
+      "_vulnerability": {
+        "severity": "low",
+        "description": "lodash has a known security vulnerability in version 1.19.19"
+      }
+    },
+    "node_modules/axios": {
+      "version": "2.1.14",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-2.1.14.tgz",
+      "integrity": "sha512-...",
+      "_vulnerability": {
+        "severity": "low",
+        "description": "axios has a known security vulnerability in version 2.1.14"
+      }
+    },
+    "node_modules/express": {
+      "version": "2.5.23",
+      "license": "BSD-2-Clause",
+      "resolved": "https://registry.npmjs.org/express/-/express-2.5.23.tgz",
+      "integrity": "sha512-...",
+      "_vulnerability": {
+        "severity": "high",
+        "description": "express has a known security vulnerability in version 2.5.23"
+      }
+    },
+    "node_modules/minimist": {
+      "version": "4.6.10",
+      "license": "AGPL-3.0",
+      "resolved": "https://registry.npmjs.org/minimist/-/minimist-4.6.10.tgz",
+      "integrity": "sha512-...",
+      "_vulnerability": {
+        "severity": "low",
+        "description": "minimist has a known security vulnerability in version 4.6.10"
+      }
+    },
+    "node_modules/xml2js": {
+      "version": "4.13.4",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-4.13.4.tgz",
+      "integrity": "sha512-...",
+      "_vulnerability": {
+        "severity": "moderate",
+        "description": "xml2js has a known security vulnerability in version 4.13.4"
+      }
+    },
+    "node_modules/dep-5": {
+      "version": "1.18.13",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-5/-/dep-5-1.18.13.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-6": {
+      "version": "5.5.17",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-6/-/dep-6-5.5.17.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-7": {
+      "version": "3.18.4",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-7/-/dep-7-3.18.4.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-8": {
+      "version": "5.11.1",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-8/-/dep-8-5.11.1.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-9": {
+      "version": "3.2.9",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/dep-9/-/dep-9-3.2.9.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-10": {
+      "version": "5.18.16",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-10/-/dep-10-5.18.16.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-11": {
+      "version": "5.16.8",
+      "license": "BSD-2-Clause",
+      "resolved": "https://registry.npmjs.org/dep-11/-/dep-11-5.16.8.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-12": {
+      "version": "3.10.13",
+      "license": "AGPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-12/-/dep-12-3.10.13.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-13": {
+      "version": "3.7.17",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-13/-/dep-13-3.7.17.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-14": {
+      "version": "3.16.6",
+      "license": "BSD-2-Clause",
+      "resolved": "https://registry.npmjs.org/dep-14/-/dep-14-3.16.6.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-15": {
+      "version": "4.17.23",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-15/-/dep-15-4.17.23.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-16": {
+      "version": "2.16.6",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/dep-16/-/dep-16-2.16.6.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-17": {
+      "version": "4.17.25",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/dep-17/-/dep-17-4.17.25.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-18": {
+      "version": "2.11.24",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-18/-/dep-18-2.11.24.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-19": {
+      "version": "3.15.1",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-19/-/dep-19-3.15.1.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-20": {
+      "version": "2.4.19",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-20/-/dep-20-2.4.19.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-21": {
+      "version": "4.18.12",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-21/-/dep-21-4.18.12.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-22": {
+      "version": "5.11.30",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-22/-/dep-22-5.11.30.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-23": {
+      "version": "2.2.21",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-23/-/dep-23-2.2.21.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-24": {
+      "version": "4.18.15",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/dep-24/-/dep-24-4.18.15.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-25": {
+      "version": "3.20.17",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-25/-/dep-25-3.20.17.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-26": {
+      "version": "2.9.8",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-26/-/dep-26-2.9.8.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-27": {
+      "version": "1.3.20",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-27/-/dep-27-1.3.20.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-28": {
+      "version": "3.19.25",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-28/-/dep-28-3.19.25.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-29": {
+      "version": "2.5.1",
+      "license": "BSD-2-Clause",
+      "resolved": "https://registry.npmjs.org/dep-29/-/dep-29-2.5.1.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-30": {
+      "version": "3.18.9",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-30/-/dep-30-3.18.9.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-31": {
+      "version": "2.2.7",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/dep-31/-/dep-31-2.2.7.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-32": {
+      "version": "2.2.30",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-32/-/dep-32-2.2.30.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-33": {
+      "version": "4.1.5",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-33/-/dep-33-4.1.5.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-34": {
+      "version": "3.10.6",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/dep-34/-/dep-34-3.10.6.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-35": {
+      "version": "3.20.18",
+      "license": "BSD-2-Clause",
+      "resolved": "https://registry.npmjs.org/dep-35/-/dep-35-3.20.18.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-36": {
+      "version": "3.0.0",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-36/-/dep-36-3.0.0.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-37": {
+      "version": "2.9.25",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/dep-37/-/dep-37-2.9.25.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-38": {
+      "version": "1.0.8",
+      "license": "GPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-38/-/dep-38-1.0.8.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-39": {
+      "version": "5.17.18",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/dep-39/-/dep-39-5.17.18.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-40": {
+      "version": "5.7.5",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-40/-/dep-40-5.7.5.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-41": {
+      "version": "1.11.3",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-41/-/dep-41-1.11.3.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-42": {
+      "version": "4.1.24",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/dep-42/-/dep-42-4.1.24.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-43": {
+      "version": "5.0.23",
+      "license": "AGPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-43/-/dep-43-5.0.23.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-44": {
+      "version": "4.13.9",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-44/-/dep-44-4.13.9.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-45": {
+      "version": "1.13.6",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-45/-/dep-45-1.13.6.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-46": {
+      "version": "4.16.30",
+      "license": "LGPL-2.1",
+      "resolved": "https://registry.npmjs.org/dep-46/-/dep-46-4.16.30.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-47": {
+      "version": "2.20.15",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/dep-47/-/dep-47-2.20.15.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-48": {
+      "version": "1.20.14",
+      "license": "UNLICENSED",
+      "resolved": "https://registry.npmjs.org/dep-48/-/dep-48-1.20.14.tgz",
+      "integrity": "sha512-..."
+    },
+    "node_modules/dep-49": {
+      "version": "5.18.21",
+      "license": "AGPL-3.0",
+      "resolved": "https://registry.npmjs.org/dep-49/-/dep-49-5.18.21.tgz",
+      "integrity": "sha512-..."
+    }
+  }
+}
